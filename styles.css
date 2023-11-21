@@ -100,9 +100,10 @@ input[type="checkbox"]{
   }
 }
 body{
-  background-image: url(images/bg1.jpg);
-  background-position: 0px;
-  transition: .3s linear;
+  background: url(images/bg1.jpg)no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-position: 39%;
 }
 .content{
   position: absolute;
